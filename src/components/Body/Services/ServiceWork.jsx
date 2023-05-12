@@ -16,25 +16,31 @@ const ServiceWork = () => {
 
           <div className="service_pages">
             <div>
-              <h2 className="l_laptop:text-2xl l_laptop:font-bold">Step 1</h2>
+              <h2 className="l_laptop:text-2xl l_laptop:font-bold mb-5">
+                Step 1
+              </h2>
               <img src={ask} className="w-44 " />
-              <p className="l_laptop:text-3xl text-center">
+              <p className="l_laptop:text-3xl text-center l_laptop:mt-10">
                 Inquire about our tutoring services by filling-out and
                 submitting the “Book a Session” form.
               </p>
             </div>
             <div>
-              <h2 className="l_laptop:text-2xl l_laptop:font-bold">Step 2</h2>
+              <h2 className="l_laptop:text-2xl l_laptop:font-bold mb-5">
+                Step 2
+              </h2>
               <img src={contact} className="w-80" />
-              <p className="l_laptop:text-3xl text-center">
+              <p className="l_laptop:text-3xl text-center l_laptop:mt-10">
                 Within 24 hours an advisor will contact you to go over the
                 student’s tutoring goals & needs.
               </p>
             </div>
             <div>
-              <h2 className="l_laptop:text-2xl l_laptop:font-bold">Step 3</h2>
+              <h2 className="l_laptop:text-2xl l_laptop:font-bold mb-5">
+                Step 3
+              </h2>
               <img src={finish} className="w-80" />
-              <p className="l_laptop:text-3xl text-center">
+              <p className="l_laptop:text-3xl text-center l_laptop:mt-10">
                 The advisor will find an ideal tutor match and set up a free
                 session to ensure s/he is the right fit.
               </p>
