@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Lato", sans-serif;
+  background: linear-gradient(
+    -45deg,
+    #fb8f4225,
+    #d57b3b2c,
+    #ffffff2b,
+    #f6792033
+  );
+  background-size: 400% 400%;
+  animation: animate 15s ease infinite;
+}
+
+::-webkit-scrollbar {
+  width: 0.5vw;
+}
+::-webkit-scrollbar-track {
+  background-color: rgb(255, 255, 255);
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(184, 75, 64);
+  border-radius: 50px;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-family: "Lato", sans-serif;
+    background: linear-gradient(
+      -45deg,
+      #fb8f4225,
+      #d57b3b2c,
+      #ffffff2b,
+      #f6792033
+    );
+    background-size: 400% 400%;
+    animation: animate 15s ease-in-out both;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}

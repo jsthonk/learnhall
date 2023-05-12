@@ -1,0 +1,40 @@
+.service {
+  display: flex;
+}
+.service_title {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+.service_pages {
+  width: 50%;
+}
+.service_pages div {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.service_pages div > h2 {
+  width: 80%;
+  text-align: center;
+}
+.service_pages div > p {
+  width: 80%;
+  font-family: "Montserrat", sans-serif;
+}
+.service_pages div:nth-child(1) {
+  background-color: #fed7bd;
+}
+.service_pages div:nth-child(2) {
+  background-color: #b84b40;
+}
+.service_pages div:nth-child(3) {
+  background-color: #a1a2a6;
+}
