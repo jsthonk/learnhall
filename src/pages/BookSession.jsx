@@ -1,7 +1,12 @@
 import React from "react";
+import SessionForm from "../components/Registration/SessionForm";
 
 const BookSession = () => {
-  return <div>BookSession</div>;
+  return (
+    <div>
+      <SessionForm />
+    </div>
+  );
 };
 
 export default BookSession;
