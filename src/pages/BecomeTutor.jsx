@@ -1,7 +1,12 @@
 import React from "react";
+import TutorForm from "../components/Registration/TutorForm";
 
 const BecomeTutor = () => {
-  return <div>BecomeTutor</div>;
+  return (
+    <div>
+      <TutorForm />
+    </div>
+  );
 };
 
 export default BecomeTutor;
