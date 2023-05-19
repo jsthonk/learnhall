@@ -14,31 +14,31 @@ const SessionForm = () => {
             you about your tutoring needs within 24 business hours.
           </p>
           <div class="book-a-session-inputs">
-            <div>
+            <div className="firstname-input">
               <label for="first-name">First Name*</label>
               <input type="text" name="first-name" id="first-name" required />
             </div>
-            <div>
+            <div className="lastname-input">
               <label for="last-name">Last Name*</label>
               <input type="text" name="last-name" id="last-name" required />
             </div>
-            <div>
+            <div className="email-input">
               <label for="email">Email* </label>
               <input type="email" name="email" id="email" required />
             </div>
-            <div>
+            <div className="phone-input">
               <label for="phone">Phone*</label>
               <input type="tel" name="phone" id="phone" required />
             </div>
-            <div>
-              <label for="location">Location*</label>
-              <input type="text" name="location" id="location" required />
-            </div>
-            <div>
+            <div className="zipcode-input">
               <label for="zip-code">Zip Code*</label>
               <input type="text" name="zip-code" id="zip-code" required />
             </div>
-            <div>
+            <div className="location-input">
+              <label for="location">Location*</label>
+              <input type="text" name="location" id="location" required />
+            </div>
+            <div className="studentgrade-input">
               <label for="student-grade">Student Grade*</label>
               <input
                 type="text"
@@ -47,7 +47,7 @@ const SessionForm = () => {
                 required
               />
             </div>
-            <div>
+            <div className="studentsubject-input">
               <label for="student-subject">Student Subject*</label>
               <input
                 type="text"
