@@ -666,9 +666,9 @@ footer {
   }
 
   .become-a-tutor-button button {
-    width: 74px;
-    height: 24px;
-    font-size: 11px;
+    width: 100px;
+    height: 35px;
+    font-size: 16px;
     border-radius: 3px;
   }
 
@@ -835,6 +835,25 @@ footer {
   }
 }
 
+@media only screen and (max-width: 500px) {
+  .become-a-tutor-container {
+    padding-left: 0;
+    padding-right: 0;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .become-a-tutor-form {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .become-a-tutor-form {
+    border: none;
+  }
+}
+
 @media only screen and (max-width: 400px) {
   .become-a-tutor {
     margin-top: 0;
@@ -847,5 +866,6 @@ footer {
 
   .become-a-tutor-form {
     border: none;
+    border-radius: 0;
   }
 }
