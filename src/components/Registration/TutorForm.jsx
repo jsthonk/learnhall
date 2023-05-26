@@ -5,15 +5,15 @@ import { FaGraduationCap } from "react-icons/fa";
 
 const TutorForm = () => {
   return (
-    <section class="become-a-tutor">
-      <div class="become-a-tutor-container">
-        <form action="" class="become-a-tutor-form">
+    <section className="become-a-tutor">
+      <div className="become-a-tutor-container">
+        <form action="" className="become-a-tutor-form">
           <h2>Become a Tutor</h2>
           <p>
             Please fill out the form below and submit, and we will get back to
             you about tutoring with Learnhall within 24-48 business hours.
           </p>
-          <div class="become-a-tutor-inputs">
+          <div className="become-a-tutor-inputs">
             <div className="firstname-input">
               <label for="first-name">First Name*</label>
               <input type="text" name="first-name" id="first-name" required />
@@ -39,41 +39,53 @@ const TutorForm = () => {
               <input type="text" name="location" id="location" required />
             </div>
           </div>
-          <div class="become-a-tutor-textarea first-textarea">
+          <div className="become-a-tutor-textarea first-textarea">
             <label for="textarea">Tell us about yourself?*</label>
             <textarea name="textarea" id="textarea" required></textarea>
           </div>
-          <div class="become-a-tutor-textarea">
+          <div className="become-a-tutor-textarea">
             <label for="textarea">
               Tell us about your experience tutoring and what subjects you
               teach?*
             </label>
             <textarea name="textarea" id="textarea" required></textarea>
           </div>
-          <div class="become-a-tutor-button">
+          <div className="become-a-tutor-button">
             <button type="submit">Submit</button>
           </div>
         </form>
-        <div class="become-a-tutor-contact">
+        <div className="become-a-tutor-contact">
           <h3>Why Join Us?</h3>
           <p>Make money while making a difference in students lives.</p>
           <div>
-            <div class="img-box orange">
-              <BsCurrencyDollar color="white" size="30px" />
+            <div className="img-box orange">
+              <BsCurrencyDollar
+                color="white"
+                size="30px"
+                className="animate-pulse"
+              />
             </div>
             <span>Earn a Steady Income</span>
-            <div class="hr"></div>
+            <div className="hr"></div>
           </div>
           <div>
-            <div class="img-box blue">
-              <BsBriefcase color="white" size="30px" />
+            <div className="img-box blue">
+              <BsBriefcase
+                color="white"
+                size="30px"
+                className="animate-wiggle"
+              />
             </div>
             <span>Work from Anywhere</span>
-            <div class="hr"></div>
+            <div className="hr"></div>
           </div>
           <div>
-            <div class="img-box brown">
-              <FaGraduationCap color="white" size="30px" />
+            <div className="img-box brown">
+              <FaGraduationCap
+                color="white"
+                size="30px"
+                className="animate-bounce"
+              />
             </div>
             <span>Help Students Succeed</span>
           </div>
