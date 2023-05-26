@@ -5,15 +5,15 @@ import { MdOutlineEmail } from "react-icons/md";
 
 const SessionForm = () => {
   return (
-    <section class="book-a-session">
-      <div class="book-a-session-container">
-        <form action="" class="book-a-session-form">
+    <section className="book-a-session">
+      <div className="book-a-session-container">
+        <form action="" className="book-a-session-form">
           <h2>Book a Session</h2>
           <p>
             Please fill out the form below and submit, and we will get back to
             you about your tutoring needs within 24 business hours.
           </p>
-          <div class="book-a-session-inputs">
+          <div className="book-a-session-inputs">
             <div className="firstname-input">
               <label for="first-name">First Name*</label>
               <input type="text" name="first-name" id="first-name" required />
@@ -57,24 +57,24 @@ const SessionForm = () => {
               />
             </div>
           </div>
-          <div class="book-a-session-textarea">
+          <div className="book-a-session-textarea">
             <label for="textarea">
               Why does the student need tutoring? (optional){" "}
             </label>
             <textarea name="textarea" id="textarea"></textarea>
           </div>
-          <div class="book-a-session-button">
+          <div className="book-a-session-button">
             <button type="submit">Submit</button>
           </div>
         </form>
-        <div class="book-session-contact">
+        <div className="book-session-contact">
           <h3>Get in Touch</h3>
           <p>You can also contact us with any questions via phone or email.</p>
-          <a href="tel:503-342-7214" class="phone-card">
+          <a href="tel:503-342-7214" className="phone-card">
             <BsFillTelephoneFill />
             <span>503-342-7214</span>
           </a>
-          <a href="mailto:info@learnhall.com" class="email-card">
+          <a href="mailto:info@learnhall.com" className="email-card">
             <MdOutlineEmail />
             <span>info@learnhall.com</span>
           </a>

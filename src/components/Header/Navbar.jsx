@@ -15,7 +15,7 @@ const Navbar = () => {
     {
       id: 4,
       name: "503-342-7214",
-      href: "tel:+15033427214",
+      href: "tel:503-342-7214",
       className: "font-semibold text-[#a52a2a]",
       class: "font-semibold text-white",
     },
