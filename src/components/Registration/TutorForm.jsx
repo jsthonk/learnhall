@@ -84,7 +84,7 @@ const TutorForm = () => {
               <FaGraduationCap
                 color="white"
                 size="30px"
-                className="animate-ping"
+                className="animate-beat"
               />
             </div>
             <span>Help Students Succeed</span>
