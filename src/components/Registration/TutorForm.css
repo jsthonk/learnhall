@@ -29,9 +29,7 @@ main {
 .become-tutor .text {
   position: absolute;
 }
-.become-tutor .text h2 {
-  font-family: "adobe-garamond-pro", serif;
-}
+
 .become-tutor .text button a {
   text-decoration: none;
   color: #ffffff;
@@ -86,12 +84,10 @@ main {
 .become-a-tutor-form h2 {
   font-weight: 600;
   font-size: 40px;
-  font-family: "adobe-garamond-pro", serif;
   color: #070a13;
 }
 
 .become-a-tutor-form p {
-  font-family: "Helvetica";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -111,7 +107,6 @@ main {
 }
 
 .become-a-tutor-inputs div label {
-  font-family: "Helvetica";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -124,7 +119,7 @@ main {
   border-radius: 3px;
   outline: none;
   padding: 12px;
-  font-family: "Helvetica";
+
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -138,7 +133,6 @@ main {
 }
 
 .become-a-tutor-textarea label {
-  font-family: "Helvetica";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -153,7 +147,7 @@ main {
   resize: none;
   padding: 15px 20px;
   outline: none;
-  font-family: "Helvetica";
+
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -173,7 +167,7 @@ main {
   height: 50px;
   background: linear-gradient(181.58deg, #c04c40 1.34%, #a63735 106.77%);
   border-radius: 8px;
-  font-family: "Adobe Garamond Pro";
+
   font-style: normal;
   font-weight: 600;
   font-size: 23px;
@@ -197,7 +191,6 @@ main {
 }
 
 .become-a-tutor-contact h3 {
-  font-family: "Adobe Garamond Pro";
   font-style: normal;
   font-weight: 600;
   font-size: 30px;
@@ -207,7 +200,6 @@ main {
 }
 
 .become-a-tutor-contact p {
-  font-family: "Helvetica";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -335,7 +327,6 @@ section.none {
 }
 
 .thank-you-section h3 {
-  font-family: "Adobe Garamond Pro";
   font-style: normal;
   font-weight: 600;
   font-size: 50px;
@@ -345,7 +336,6 @@ section.none {
 }
 
 .thank-you-section p {
-  font-family: "Helvetica";
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
