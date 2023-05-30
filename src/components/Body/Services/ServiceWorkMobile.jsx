@@ -6,12 +6,12 @@ import girl from "../../../assets/Girl with notebook 2 1.png";
 import finish from "../../../assets/finsih.png";
 import { Controller, Scene } from "react-scrollmagic";
 
-const ServiceWork = () => {
+const ServiceWorkMobile = () => {
   return (
     <Fragment>
       <Controller>
         <Scene pin={true} duration={1} triggerHook={0}>
-          <div className="service max-tablet:hidden">
+          <div className="service">
             <div className="service_title">
               <div className="flex flex-col px-2">
                 <h1 className="mx-auto text-4xl laptop:text-3xl tablet:text-2xl">
@@ -65,4 +65,4 @@ const ServiceWork = () => {
   );
 };
 
-export default ServiceWork;
+export default ServiceWorkMobile;
