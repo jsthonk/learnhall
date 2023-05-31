@@ -10,7 +10,8 @@ const ServiceWork = () => {
   return (
     <Fragment>
       <Controller>
-        <Scene pin={true} duration={1} triggerHook={0}>
+        <Scene pin={true} duration={1} triggerHook={1}>
+          {/* Tablet - Large Laptop */}
           <div className="service max-tablet:hidden">
             <div className="service_title">
               <div className="flex flex-col px-2">
@@ -58,6 +59,7 @@ const ServiceWork = () => {
                 </p>
               </div>
             </div>
+            <div className="tablet:hidden">Testing</div>
           </div>
         </Scene>
       </Controller>

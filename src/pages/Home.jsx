@@ -14,7 +14,7 @@ const Home = () => {
       <main>
         <ChooseUs />
         <ServiceWork />
-        <ServiceWorkMobile />
+        {/* <ServiceWorkMobile /> */}
       </main>
     </Fragment>
   );
